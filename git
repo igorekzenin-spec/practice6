@@ -6,3 +6,10 @@ profession = "Backend-разработчик"
 skill = "разработка на Python"
 
 print(f"Меня зовут {name}. Я хочу стать {profession}. Мой главный фокус сейчас — {skill}.")
+
+git init
+git add main.py
+git commit -m "feat: add main script with career goals"
+git remote add origin https://github.com/igorekzenin-spec/practice6.git
+git branch -M main
+git push -u origin main
